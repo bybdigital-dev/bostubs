@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Truck, Droplets, CalendarCheck, Clock, Shield, Wrench } from "lucide-react";
+import cementOvenImage from "@assets/Hottub_Cement_Oven.jpg";
 
 export default function HowItWorks() {
   return (
@@ -55,7 +56,7 @@ export default function HowItWorks() {
               </div>
               <div className="lg:w-1/2">
                 <img 
-                  src="https://pixabay.com/get/ge0766dda8ae84f8805e219c2a3bd50369d803921ba21d953484c595696ee1193c38921717c1a90fea49c2771b5a8cd3d0f1221d6eb4f91fba2b5e9524f834d66_1280.jpg"
+                  src={cementOvenImage}
                   alt="Professional hot tub delivery and setup"
                   className="w-full h-80 object-cover rounded-xl shadow-lg"
                 />
