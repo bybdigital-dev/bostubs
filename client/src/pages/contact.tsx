@@ -136,7 +136,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-cedar-600">Phone</h4>
-                      <p className="text-gray-600">+27 12 345 6789</p>
+                      <p className="text-gray-600">079 075 6571 / 072 270 6959</p>
                       <p className="text-sm text-gray-500">Available 8AM - 8PM daily</p>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-cedar-600">Email</h4>
-                      <p className="text-gray-600">hello@bostubs.co.za</p>
+                      <p className="text-gray-600">bostubs@gmail.com</p>
                       <p className="text-sm text-gray-500">Response within 24 hours</p>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <a 
-                  href="https://wa.me/27123456789?text=Hi%20BosTubs!%20I'm%20interested%20in%20booking%20a%20hot%20tub%20rental."
+                  href="https://wa.me/27790756571?text=Hi%20BosTubs!%20I'm%20interested%20in%20booking%20a%20hot%20tub%20rental."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

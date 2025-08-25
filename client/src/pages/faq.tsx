@@ -7,15 +7,15 @@ import { Button } from "@/components/ui/button";
 const faqItems = [
   {
     question: "How long does it take to heat up?",
-    answer: "Our wood-fired hot tubs typically take 2-4 hours to reach optimal temperature (38-40°C), depending on weather conditions and starting water temperature. We can pre-heat the tub upon delivery for an additional fee."
+    answer: "Our wood-fired hot tubs typically take 2-4 hours to reach optimal temperature (38-40°C), depending on weather conditions and starting water temperature."
   },
   {
     question: "What about hygiene and water quality?",
-    answer: "Each tub is thoroughly cleaned and sanitized between rentals. We provide fresh, treated water and include water testing strips and maintenance chemicals. All tubs feature natural filtration systems for crystal-clear water."
+    answer: "Each tub is thoroughly cleaned and sanitized between rentals."
   },
   {
     question: "Do I need special space requirements?",
-    answer: "You need a flat, stable surface (grass, patio, or deck) that can support approximately 2 tons when filled. The tub requires about 3x3 meters of space plus clearance for our delivery truck. We handle all setup details."
+    answer: "You need a flat, stable surface that can support approximately 2 tons when filled. The tub requires about 3x3 meters of space plus clearance for our delivery vehicle. We handle all setup details."
   },
   {
     question: "What's included in the rental?",
@@ -23,7 +23,7 @@ const faqItems = [
   },
   {
     question: "How far do you deliver?",
-    answer: "We deliver throughout Pretoria and surrounding areas within a 50km radius. This includes Centurion, Midrand, and nearby suburbs. Delivery fees may apply for locations outside our standard service area."
+    answer: "We deliver throughout Pretoria and surrounding areas within a 50km radius. This includes Centurion, Midrand, and nearby suburbs."
   },
   {
     question: "Can I use it in winter?",
@@ -31,20 +31,12 @@ const faqItems = [
   },
   {
     question: "What happens if it rains?",
-    answer: "Light rain actually adds to the magical experience! Our hot tubs are designed to be used in all weather conditions. Heavy storms may require temporary covers, which we provide as part of the service."
+    answer: "Light rain actually adds to the magical experience! Our hot tubs are designed to be used in all weather conditions."
   },
   {
     question: "How many people can use the hot tub?",
-    answer: "Our standard hot tubs comfortably accommodate 4-6 adults. We also have larger models available for groups up to 8-10 people. All rentals include clear capacity guidelines for safety and comfort."
+    answer: "Our standard hot tubs comfortably accommodate 4-6 adults."
   },
-  {
-    question: "Can I cancel or reschedule my booking?",
-    answer: "Yes, we understand plans can change. Cancellations more than 48 hours in advance receive a full refund. Rescheduling is free with 24 hours notice, subject to availability."
-  },
-  {
-    question: "Do you provide towels and other accessories?",
-    answer: "We provide basic maintenance equipment and safety items. Towels, robes, and personal items are not included but can be arranged as part of our premium service packages."
-  }
 ];
 
 export default function FAQ() {
@@ -91,7 +83,7 @@ export default function FAQ() {
               </div>
               <h3 className="text-lg font-semibold text-cedar-600 mb-3">Optimal Heating</h3>
               <p className="text-gray-600 text-sm">
-                Start heating 3-4 hours before use. Use dry, seasoned hardwood for best results. 
+                Start heating 5 hours before use. Use dry, seasoned hardwood for best results. 
                 Keep the fire steady rather than blazing hot.
               </p>
             </div>
@@ -124,7 +116,7 @@ export default function FAQ() {
               </div>
               <h3 className="text-lg font-semibold text-cedar-600 mb-3">Water Care</h3>
               <p className="text-gray-600 text-sm">
-                Use provided chemicals as directed. Test water pH regularly. 
+                Never use chemicals in the water. 
                 Shower before entering to maintain water quality.
               </p>
             </div>
@@ -146,8 +138,7 @@ export default function FAQ() {
               </div>
               <h3 className="text-lg font-semibold text-cedar-600 mb-3">Weather Wisdom</h3>
               <p className="text-gray-600 text-sm">
-                Cold weather is perfect for hot tubbing! Wind can affect heating time. 
-                Use provided covers during extreme weather.
+                Cold weather is perfect for hot tubbing! Wind can affect heating time.
               </p>
             </div>
           </div>
@@ -172,7 +163,7 @@ export default function FAQ() {
               <h3 className="font-semibold text-cedar-600 mb-2">Call Us</h3>
               <p className="text-gray-600 text-sm mb-3">Speak directly with our team</p>
               <a href="tel:+27123456789" className="text-fire-500 font-semibold hover:underline">
-                +27 12 345 6789
+                072 270 6959
               </a>
             </div>
             
@@ -183,7 +174,7 @@ export default function FAQ() {
               <h3 className="font-semibold text-cedar-600 mb-2">WhatsApp</h3>
               <p className="text-gray-600 text-sm mb-3">Quick responses guaranteed</p>
               <a 
-                href="https://wa.me/27123456789?text=Hi%20BosTubs!%20I%20have%20a%20question%20about%20your%20hot%20tub%20rentals."
+                href="https://wa.me/27790756571?text=Hi%20BosTubs!%20I%20have%20a%20question%20about%20your%20hot%20tub%20rentals."
                 className="text-green-600 font-semibold hover:underline"
               >
                 Chat Now
@@ -197,7 +188,7 @@ export default function FAQ() {
               <h3 className="font-semibold text-cedar-600 mb-2">Email Us</h3>
               <p className="text-gray-600 text-sm mb-3">Detailed responses within 24h</p>
               <a href="mailto:hello@bostubs.co.za" className="text-water-600 font-semibold hover:underline">
-                hello@bostubs.co.za
+                bostubs@gmail.com
               </a>
             </div>
           </div>
@@ -223,6 +214,7 @@ export default function FAQ() {
                 Book Now
               </Button>
             </Link>
+            {/*
             <Link href="/pricing">
               <Button 
                 size="lg"
@@ -233,6 +225,7 @@ export default function FAQ() {
                 View Pricing
               </Button>
             </Link>
+            */}
           </div>
         </div>
       </section>

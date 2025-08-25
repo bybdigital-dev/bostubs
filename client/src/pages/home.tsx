@@ -93,6 +93,7 @@ export default function Home() {
                 Book Now
               </Button>
             </Link>
+            {/*
             <Link href="/pricing">
               <Button 
                 size="lg"
@@ -103,6 +104,7 @@ export default function Home() {
                 View Pricing
               </Button>
             </Link>
+            */}
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ export function Footer() {
     { href: "/", label: "Home" },
     { href: "/how-it-works", label: "How It Works" },
     { href: "/gallery", label: "Gallery" },
-    { href: "/pricing", label: "Pricing" },
+    //{ href: "/pricing", label: "Pricing" },
   ];
 
   return (
@@ -40,8 +40,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-cedar-200" data-testid="footer-phone">+27 12 345 6789</li>
-              <li className="text-cedar-200" data-testid="footer-email">hello@bostubs.co.za</li>
+              <li className="text-cedar-200" data-testid="footer-phone">079 075 6571 / 072 270 6959</li>
+              <li className="text-cedar-200" data-testid="footer-email">bostubs@gmail.com</li>
               <li className="text-cedar-200" data-testid="footer-location">Pretoria, South Africa</li>
             </ul>
           </div>

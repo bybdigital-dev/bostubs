@@ -11,7 +11,7 @@ export function Navbar() {
     { href: "/", label: "Home" },
     { href: "/how-it-works", label: "How It Works" },
     { href: "/gallery", label: "Gallery" },
-    { href: "/pricing", label: "Pricing" },
+    //{ href: "/pricing", label: "Pricing" },
     { href: "/faq", label: "FAQ" },
     { href: "/contact", label: "Contact" },
   ];
