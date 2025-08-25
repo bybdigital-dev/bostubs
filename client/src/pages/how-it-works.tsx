@@ -4,6 +4,9 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Truck, Droplets, CalendarCheck, Clock, Shield, Wrench } from "lucide-react";
 import cementOvenImage from "@assets/Hottub_Cement_Oven.jpg";
+import bigyardimage from "@assets/Hottub_Yard_Far.jpg";
+import shinytub from "@assets/Hottub_Shine_Nature.jpg";
+
 
 export default function HowItWorks() {
   return (
@@ -43,10 +46,7 @@ export default function HowItWorks() {
                   </p>
                   <ul className="space-y-2 ml-4">
                     <li>• Positioning the hot tub on a suitable flat surface</li>
-                    <li>• Filling with fresh, treated water</li>
                     <li>• Safety briefing and operation instructions</li>
-                    <li>• Providing initial firewood supply</li>
-                    <li>• Water testing and chemical balance</li>
                   </ul>
                   <p className="text-lg">
                     The entire setup process typically takes 30-45 minutes, and we'll make sure 
@@ -79,7 +79,6 @@ export default function HowItWorks() {
                   <ul className="space-y-2 ml-4">
                     <li>• 2-4 hours heating time to reach perfect temperature (38-40°C)</li>
                     <li>• Natural wood-fired heating system</li>
-                    <li>• Crystal clear, sanitized water</li>
                     <li>• Rustic luxury experience under the stars</li>
                     <li>• Perfect for couples, families, or small groups</li>
                   </ul>
@@ -91,7 +90,7 @@ export default function HowItWorks() {
               </div>
               <div className="lg:w-1/2">
                 <img 
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600"
+                  src={bigyardimage}
                   alt="Relaxing evening in hot tub with ambient lighting"
                   className="w-full h-80 object-cover rounded-xl shadow-lg"
                 />
@@ -113,10 +112,9 @@ export default function HowItWorks() {
                   </p>
                   <ul className="space-y-2 ml-4">
                     <li>• Complete water drainage and cleanup</li>
-                    <li>• Thorough sanitization for the next customer</li>
                     <li>• Safe removal from your property</li>
-                    <li>• No mess or residue left behind</li>
                     <li>• Professional, courteous service</li>
+                    <li>• Thorough sanitization for the next customer</li>
                   </ul>
                   <p className="text-lg">
                     You're left with nothing but wonderful memories and the satisfaction of 
@@ -126,8 +124,7 @@ export default function HowItWorks() {
               </div>
               <div className="lg:w-1/2">
                 <img 
-                  src="https://pixabay.com/get/g60eaf69f89e7e596186f4fb90100c9e7e43ca6fcd01c8caff21a0c7d931185a427782c94f0d348cd38795e47274d028a07026e5ebdfe67884e62030086ef2ab5_1280.jpg"
-                  alt="Professional cleanup and collection service"
+                  src={shinytub}                  alt="Professional cleanup and collection service"
                   className="w-full h-80 object-cover rounded-xl shadow-lg"
                 />
               </div>
@@ -162,7 +159,7 @@ export default function HowItWorks() {
               <Shield className="w-16 h-16 text-fire-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-cedar-600 mb-4">Safety & Hygiene</h3>
               <p className="text-gray-600">
-                Rigorous cleaning protocols, water quality testing, and comprehensive safety 
+                Rigorous cleaning protocols, and comprehensive safety 
                 briefings ensure worry-free enjoyment.
               </p>
             </div>

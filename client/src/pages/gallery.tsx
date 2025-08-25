@@ -3,30 +3,36 @@ import { Footer } from "@/components/layout/footer";
 import { GalleryGrid } from "@/components/ui/gallery-grid";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import bigyardimage from "@assets/Hottub_Yard_Far.jpg";
+import shinytub from "@assets/Hottub_Shine_Nature.jpg";
+import bluetub from "@assets/Blue_water_hottub.jpg";
+import bigtub from "@assets/Hottub_Yard_Big.jpeg";
+import cementtub from "@assets/Hottub_Patio_Cement_Dark.jpg";
+import grasstub from "@assets/Hottub_Grass_Yard.jpeg";
 
 const galleryImages = [
   {
-    src: "https://pixabay.com/get/ge0766dda8ae84f8805e219c2a3bd50369d803921ba21d953484c595696ee1193c38921717c1a90fea49c2771b5a8cd3d0f1221d6eb4f91fba2b5e9524f834d66_1280.jpg",
+    src:bigyardimage,
     alt: "Modern backyard hot tub setup with landscaping"
   },
   {
-    src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    src:shinytub,
     alt: "Romantic evening hot tub with ambient lighting"
   },
   {
-    src: "https://pixabay.com/get/g0d02af2a1f9669b11cbcc74f91ec137aa2532e480e0b501f9a1bcee8bd5163622e642319b3e1fade72c2b95253559ad829bb7de661831cdd43762c5704807d46_1280.jpg",
+    src:bigtub,
     alt: "Family enjoying garden hot tub experience"
   },
   {
-    src: "https://pixabay.com/get/g60eaf69f89e7e596186f4fb90100c9e7e43ca6fcd01c8caff21a0c7d931185a427782c94f0d348cd38795e47274d028a07026e5ebdfe67884e62030086ef2ab5_1280.jpg",
+    src:bluetub,
     alt: "Party celebration hot tub setup"
   },
   {
-    src: "https://pixabay.com/get/g0990d4dee75c11c0745f77ea74b65fb528f908b54450535fb4c4531a19dbc4e3d06f8d36704b46c99536f01c4c4fe94eaec2462b16d064289768952a831a7158_1280.jpg",
+    src:cementtub,
     alt: "Natural outdoor hot tub among trees"
   },
   {
-    src: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    src:grasstub,
     alt: "Wood-fired hot tub with flames and steam"
   },
 ];
