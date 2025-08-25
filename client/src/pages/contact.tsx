@@ -1,0 +1,170 @@
+import { Navbar } from "@/components/layout/navbar";
+import { Footer } from "@/components/layout/footer";
+import { ContactForm } from "@/components/ui/contact-form";
+import { Phone, Mail, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+export default function Contact() {
+  return (
+    <div className="min-h-screen bg-cream-100">
+      <Navbar />
+      
+      {/* Header */}
+      <section className="pt-24 pb-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-6xl font-playfair font-bold text-cedar-600 mb-6">
+            Book Your Experience
+          </h1>
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Ready for the ultimate relaxation? Get in touch to book your luxury wood-fired hot tub experience. 
+            We'll respond within 24 hours with availability and next steps.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Form & Info */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Contact Form */}
+            <ContactForm />
+
+            {/* Contact Information */}
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-2xl font-playfair font-bold text-cedar-600 mb-6">Get in Touch</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4" data-testid="contact-phone">
+                    <div className="w-12 h-12 bg-fire-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-cedar-600">Phone</h4>
+                      <p className="text-gray-600">+27 12 345 6789</p>
+                      <p className="text-sm text-gray-500">Available 8AM - 8PM daily</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4" data-testid="contact-email">
+                    <div className="w-12 h-12 bg-water-400 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-cedar-600">Email</h4>
+                      <p className="text-gray-600">hello@bostubs.co.za</p>
+                      <p className="text-sm text-gray-500">Response within 24 hours</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-4" data-testid="contact-location">
+                    <div className="w-12 h-12 bg-cedar-600 rounded-full flex items-center justify-center flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-cedar-600">Service Area</h4>
+                      <p className="text-gray-600">Pretoria & surrounding areas</p>
+                      <p className="text-sm text-gray-500">50km delivery radius</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* WhatsApp CTA */}
+              <div className="bg-green-500 rounded-2xl p-6 text-white" data-testid="whatsapp-cta">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="text-3xl">💬</div>
+                  <div>
+                    <h4 className="font-bold text-lg">Quick Booking via WhatsApp</h4>
+                    <p className="text-green-100">Get instant responses and book faster</p>
+                  </div>
+                </div>
+                <a 
+                  href="https://wa.me/27123456789?text=Hi%20BosTubs!%20I'm%20interested%20in%20booking%20a%20hot%20tub%20rental."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    className="bg-white text-green-500 px-6 py-3 rounded-full font-semibold hover:bg-green-50 transition-colors duration-200"
+                    data-testid="button-whatsapp"
+                  >
+                    Chat on WhatsApp
+                  </Button>
+                </a>
+              </div>
+
+              {/* Social Media */}
+              <div data-testid="social-media">
+                <h4 className="font-semibold text-cedar-600 mb-4">Follow Us</h4>
+                <div className="flex space-x-4">
+                  <a 
+                    href="#" 
+                    className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
+                    data-testid="social-instagram"
+                  >
+                    <span className="text-xl">📷</span>
+                  </a>
+                  <a 
+                    href="#" 
+                    className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
+                    data-testid="social-facebook"
+                  >
+                    <span className="text-xl">📘</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Business Hours & Info */}
+      <section className="py-20 bg-cream-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-playfair font-bold text-cedar-600 mb-6">
+              Business Information
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm" data-testid="business-hours">
+              <div className="w-16 h-16 bg-fire-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">🕐</span>
+              </div>
+              <h3 className="text-xl font-semibold text-cedar-600 mb-4">Business Hours</h3>
+              <div className="text-gray-600 space-y-1">
+                <p>Monday - Friday: 8AM - 8PM</p>
+                <p>Saturday: 7AM - 9PM</p>
+                <p>Sunday: 8AM - 7PM</p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm" data-testid="response-time">
+              <div className="w-16 h-16 bg-water-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-semibold text-cedar-600 mb-4">Quick Response</h3>
+              <div className="text-gray-600 space-y-1">
+                <p>WhatsApp: Instant - 1 hour</p>
+                <p>Phone: Available during hours</p>
+                <p>Email: Within 24 hours</p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm" data-testid="booking-advance">
+              <div className="w-16 h-16 bg-cedar-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">📅</span>
+              </div>
+              <h3 className="text-xl font-semibold text-cedar-600 mb-4">Booking Lead Time</h3>
+              <div className="text-gray-600 space-y-1">
+                <p>Weekends: 1 week advance</p>
+                <p>Weekdays: 3-5 days advance</p>
+                <p>Rush bookings may be available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}
