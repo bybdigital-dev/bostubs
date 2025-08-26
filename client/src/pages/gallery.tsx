@@ -174,6 +174,7 @@ export default function Gallery() {
                 Book Now
               </Button>
             </Link>
+            {/*
             <Link href="/pricing">
               <Button 
                 size="lg"
@@ -184,6 +185,7 @@ export default function Gallery() {
                 View Pricing
               </Button>
             </Link>
+            */}
           </div>
         </div>
       </section>
