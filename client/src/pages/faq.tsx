@@ -19,7 +19,7 @@ const faqItems = [
   },
   {
     question: "What's included in the rental?",
-    answer: "Every rental includes: complete tub setup, initial water fill, basic firewood, water treatment chemicals, maintenance tools, safety instructions, and full cleanup upon collection. Optional extras available for enhanced experiences."
+    answer: "Every rental includes: complete tub setup, safety instructions, and full cleanup upon collection. Optional wood available for enhanced experiences."
   },
   {
     question: "How far do you deliver?",

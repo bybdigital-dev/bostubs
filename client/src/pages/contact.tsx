@@ -191,14 +191,14 @@ export default function Contact() {
                 <h4 className="font-semibold text-cedar-600 mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.instagram.com/bostubs" 
                     className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
                     data-testid="social-instagram"
                   >
                     <span className="text-xl">📷</span>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.facebook.com/profile.php?id=61579356937652" 
                     className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
                     data-testid="social-facebook"
                   >

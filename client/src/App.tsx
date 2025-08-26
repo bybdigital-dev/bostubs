@@ -10,6 +10,7 @@ import Gallery from "@/pages/gallery";
 import Pricing from "@/pages/pricing";
 import FAQ from "@/pages/faq";
 import Contact from "@/pages/contact";
+import ScrollToTop from "@/components/ScrollToTop";
 
 function Router() {
   return (
@@ -30,6 +31,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
+        <ScrollToTop /> {/* Add this line */}
         <Router />
       </TooltipProvider>
     </QueryClientProvider>

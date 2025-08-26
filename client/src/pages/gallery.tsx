@@ -135,9 +135,14 @@ export default function Gallery() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4 italic">
-                "Absolutely incredible experience! The setup was seamless and the hot tub was perfect for our anniversary celebration. We'll definitely be booking again!"
+                "Rented the Hot Tub for a Bachelorette Party and it was a HIT!
+                The entire experience was easy and effortless. The Team delivers and sets up the Hot tub, take you through a quick "how to" process and collects again.
+
+                Great service and a great product. Also very affordable for the period given. The wood provided was also dry and perfect to get the tub VERY hot.
+
+                Thanks team- will definitely use you in the future again"
               </p>
-              <div className="font-semibold text-cedar-600">- Sarah & Mark, Centurion</div>
+              <div className="font-semibold text-cedar-600">- Sylvia Stadler, Mooikloof</div>
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-sm" data-testid="testimonial-2">
@@ -147,9 +152,10 @@ export default function Gallery() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4 italic">
-                "The kids loved it and so did we! Professional service from start to finish. Made our backyard feel like a luxury resort."
+                "Great service and great idea. We loved having a hot tub for the weekend without the hassles of having to own and maintain it long term.
+                The team was friendly and efficient, and delivered and collected the tub with no issues."
               </p>
-              <div className="font-semibold text-cedar-600">- The Johnson Family, Pretoria East</div>
+              <div className="font-semibold text-cedar-600">- Andrea Cronje, Lynnwood</div>
             </div>
           </div>
         </div>
