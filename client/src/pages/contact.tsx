@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { ContactForm } from "@/components/ui/contact-form";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -194,15 +195,19 @@ export default function Contact() {
                     href="https://www.instagram.com/bostubs" 
                     className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
                     data-testid="social-instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <span className="text-xl">📷</span>
+                    <Instagram className="w-5 h-5" />
                   </a>
                   <a 
                     href="https://www.facebook.com/profile.php?id=61579356937652" 
                     className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-fire-500 hover:text-white transition-colors duration-200"
                     data-testid="social-facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <span className="text-xl">📘</span>
+                    <Facebook className="w-5 h-5" />
                   </a>
                 </div>
               </div>
