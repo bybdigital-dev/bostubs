@@ -23,7 +23,7 @@ export default defineConfig(async () => {
     root: path.resolve(import.meta.dirname, "client"),
 
     // 👇 IMPORTANT: replace <repo-name> with your repo’s exact name
-    base: "/<BosTubs>/",
+    base: "/BosTubs/",
 
     // 👇 build to repo-root /dist (what Pages will publish)
     build: {
