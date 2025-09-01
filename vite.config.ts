@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-// If you need the Cartographer plugin only in Replit dev, use the async form:
 export default defineConfig(async () => {
   const replitPlugins =
     process.env.NODE_ENV !== "production" && process.env.REPL_ID
@@ -19,19 +18,17 @@ export default defineConfig(async () => {
         "@assets": path.resolve(import.meta.dirname, "attached_assets"),
       },
     },
-    // Your source index.html lives in /client
+
+    // 👇 your source lives in /client
     root: path.resolve(import.meta.dirname, "client"),
 
-    // 👇 IMPORTANT for GitHub Pages (set to your repo name)
+    // 👇 IMPORTANT: replace <repo-name> with your repo’s exact name
     base: "/<BosTubs>/",
 
+    // 👇 build to repo-root /dist (what Pages will publish)
     build: {
-      // Put the compiled site at repo-root /dist
       outDir: path.resolve(import.meta.dirname, "dist"),
       emptyOutDir: true,
-    },
-    server: {
-      fs: { strict: true, deny: ["**/.*"] },
     },
   };
 });
